@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bac3f8dd-ab8d-4f5c-9da7-550845b4f354" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/constants/BasicConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/constants/FilterConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/constants/GatewayConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/constants/GatewayProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/AssertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/JSONUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/NetUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/PropertiesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/RemotingHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/RemotingUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-config-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/Bootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/request/GatewayRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/request/IGatewayRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/response/GatewayResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-register-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-server/src/main/java/com/example/httpserver/HttpServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-server/src/test/java/com/example/httpserver/HttpServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2UqLdeocuiI0BD6lPb3WPAC6N70" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/31617/Desktop/api-gateway/gateway-common/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\31617\Desktop\api-gateway\gateway-common\src\main\java" />
+      <recent name="C:\Users\31617\Desktop\api-gateway\gateway-core\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HttpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="http-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.httpserver.HttpServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="bac3f8dd-ab8d-4f5c-9da7-550845b4f354" name="更改" comment="" />
+      <created>1693662253755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693662253755</updated>
+      <workItem from="1693662255617" duration="3873000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
