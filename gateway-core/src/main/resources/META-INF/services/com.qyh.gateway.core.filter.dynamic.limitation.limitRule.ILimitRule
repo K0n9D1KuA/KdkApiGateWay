@@ -1,0 +1,2 @@
+com.qyh.gateway.core.filter.dynamic.limitation.limitRule.ip.IpLimitRule
+com.qyh.gateway.core.filter.dynamic.limitation.limitRule.province.ProvinceLimitRule

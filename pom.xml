@@ -14,12 +14,15 @@
         <module>gateway-config-center</module>
         <module>gateway-register-center</module>
         <module>gateway-client</module>
+        <module>gateway-register-center/gateway-register-center-api</module>
+        <module>gateway-register-center/gateway-register-center-nacos-impl</module>
+        <module>gateway-config-center/gateway-config-center-api</module>
+        <module>gateway-config-center/gateway-config-center-impl</module>
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netty.version>4.1.51.Final</netty.version>
         <async-http-client.version>2.0.37</async-http-client.version>
         <biz.paluch.redis.version>4.4.6.Final</biz.paluch.redis.version>
@@ -41,6 +44,14 @@
 
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+        </dependency>
+
+        <!-- 网络依赖 -->
         <!-- 网络依赖 -->
         <dependency>
             <groupId>io.netty</groupId>

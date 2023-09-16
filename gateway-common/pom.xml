@@ -20,6 +20,8 @@
 
 
     <dependencies>
+
+
         <!-- 通用包 -->
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -35,6 +37,12 @@
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
             <version>1.9.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
         </dependency>
     </dependencies>
 

@@ -4,34 +4,142 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bac3f8dd-ab8d-4f5c-9da7-550845b4f354" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/constants/BasicConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/constants/FilterConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/constants/GatewayConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/constants/GatewayProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/AssertUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/JSONUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/NetUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/PropertiesUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/RemotingHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/RemotingUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/TimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-config-center/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/Bootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/request/GatewayRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/request/IGatewayRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/response/GatewayResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-register-center/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-server/src/main/java/com/example/httpserver/HttpServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http-server/src/test/java/com/example/httpserver/HttpServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="bac3f8dd-ab8d-4f5c-9da7-550845b4f354" name="更改" comment="KdkApiGateWay init">
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/core/ApiAnnotationScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/core/ApiInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/core/ApiProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/core/ApiProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/core/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/core/autoconfigure/ApiClientAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/support/AbstractClientRegisterAndConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/support/springmvc/GenerateShortLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/support/springmvc/Gray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/support/springmvc/HotParamControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/support/springmvc/Limit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/support/springmvc/LimitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/support/springmvc/LoadBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/support/springmvc/Mock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/support/springmvc/RetryTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/support/springmvc/SpringMVCClientRegisterAndConfigManagerAndConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/resources/META-INF/services/com.qyh.gateway.register.center.api.RegisterCenter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-client/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/config/AbstractServiceInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/config/HttpServiceInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/config/Rule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/config/RuleNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/config/ServiceDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/config/ServiceInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/config/ServiceInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/enums/ResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/exception/ConnectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/exception/GatewayBaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/exception/GatewayNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/exception/GatewayResponseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/exception/LimitException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/exception/PathNoMatchedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/exception/ResponseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-common/src/main/java/utils/HashUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-config-center/gateway-config-center-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-config-center/gateway-config-center-api/src/main/java/com/qyh/gateway/config/center/api/ConfigCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-config-center/gateway-config-center-api/src/main/java/com/qyh/gateway/config/center/api/NewRulesChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-config-center/gateway-config-center-api/src/main/java/com/qyh/gateway/config/center/api/RulesChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-config-center/gateway-config-center-api/src/main/java/com/qyh/gateway/config/center/api/ShortUrlsChangeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-config-center/gateway-config-center-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-config-center/gateway-config-center-impl/src/main/java/com/qyh/gateway/config/center/impl/NaocsConfigCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/config/ConfigLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/container/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/container/LifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/context/BasicContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/context/GatewayContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/context/GatewayContextNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/context/HttpRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/context/IContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/FilterAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/FilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/GatewayFilterChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/GatewayFilterChainFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/Interruptible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/AbstractDynamicFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/ControllerAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/IController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/RedisCountLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/fail_fast/AbstractFailFastController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/fail_fast/FailFastControllerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/fail_fast/FailFastParamInfoWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/fail_fast/filter/FailFastControlFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/fail_fast/single/ArrayMetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/fail_fast/single/FailFastControllerSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/fail_fast/single/LeapArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/fail_fast/single/WindowWrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/hot_param/AbstractHotParamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/hot_param/HotParamInfoWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/hot_param/distributed/HotParamControllerDistributed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/hot_param/factory/HotParamControllerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/hot_param/filter/HotParamControlFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/hot_param/single/HotParamControllerSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/hot_param/single/HotParamCounterHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/gray/GrayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/limitation/LimitationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/limitation/factory/ILimitRuleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/limitation/factory/LimitRuleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/limitation/limitRule/ILimitRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/limitation/limitRule/LimitRuleAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/limitation/limitRule/LimitRuleComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/limitation/limitRule/ip/IpLimitRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/limitation/limitRule/province/ProvinceLimitRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/limitation/wrapper/ReqCheckInfoWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/mock/MockFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/loadbalance/AbstractLoadBalanceRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/loadbalance/IGatewayLoadBalanceRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/loadbalance/LoadBalanceFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/loadbalance/RandomLoadBalanceRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/loadbalance/RoundRibbonLoadBalanceRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/router/RouterFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/helper/AsyncHttpHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/helper/HashShortLinkChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/helper/RequestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/helper/ResponseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/manager/DynamicConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/manager/DynamicConfigManagerNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/NettyHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/NettyHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/NettyHttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/NettyServerConnectManagerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/process/NettyProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/redis/JedisPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/redis/JedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/response/GatewayResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/resources/META-INF/services/com.qyh.gateway.core.filter.Filter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/resources/META-INF/services/com.qyh.gateway.core.filter.dynamic.limitation.limitRule.ILimitRule" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/resources/META-INF/services/com.qyh.gateway.core.filter.loadbalance.IGatewayLoadBalanceRule" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/resources/gateway.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-core/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-register-center/gateway-register-center-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-register-center/gateway-register-center-api/src/main/java/com/qyh/gateway/register/center/api/RegisterCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-register-center/gateway-register-center-api/src/main/java/com/qyh/gateway/register/center/api/RegisterCenterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-register-center/gateway-register-center-nacos-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-register-center/gateway-register-center-nacos-impl/src/main/java/com/qyh/gateway/register/center/nacos/impl/NacosRegisterCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-server/src/main/java/com/example/httpserver/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-server/src/main/java/com/example/httpserver/controller/TestController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-server/src/main/java/com/example/httpserver/controller/api_annotation/PingGateWayRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-common/src/main/java/constants/FilterConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-common/src/main/java/constants/FilterConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-common/src/main/java/constants/GatewayConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-common/src/main/java/constants/GatewayConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-core/src/main/java/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/Bootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-core/src/main/java/request/GatewayRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/request/GatewayRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-core/src/main/java/request/IGatewayRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/request/IGatewayRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-core/src/main/java/response/GatewayResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/http-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-server/src/main/java/com/example/httpserver/HttpServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/http-server/src/main/java/com/example/httpserver/HttpServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/http-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +149,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,39 +179,126 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/31617/Desktop/api-gateway/gateway-common/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/31617/Desktop/api-gateway sdadassada&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e122eba0da150f835bd8aad177caa8e9&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\31617\Desktop\api-gateway\gateway-common\src\main\java" />
-      <recent name="C:\Users\31617\Desktop\api-gateway\gateway-core\src\main\java" />
+      <recent name="C:\Users\31617\Desktop\api-gateway\gateway-core\src\main\resources" />
+      <recent name="C:\Users\31617\Desktop\api-gateway\gateway-core\src\main\java\com\qyh\gateway\core" />
+      <recent name="C:\Users\31617\Desktop\api-gateway\gateway-core\src\main\java\com\qyh\gateway\core\filter\flowControl" />
+      <recent name="C:\Users\31617\Desktop\api-gateway\gateway-core\src\main\java\com\qyh\gateway\core\filter" />
+      <recent name="C:\Users\31617\Desktop\api-gateway\gateway-client\src\main\java\com\qyh\gateway\client\core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\31617\Desktop\api-gateway\gateway-register-center\gateway-register-center-api\src\main\java" />
+      <recent name="C:\Users\31617\Desktop\api-gateway\gateway-register-center\gateway-register-center-api\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qyh.gateway.core.filter.dynamic.flowControl.fail_fast" />
+      <recent name="com.qyh.gateway.core.context" />
+      <recent name="com.qyh.gateway.config.center.api" />
+      <recent name="com.qyh.gateway.core.manager" />
+      <recent name="com.qyh.gateway.client.support.springmvc" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="HttpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunManager" selected="应用程序.Bootstrap">
+    <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qyh.gateway.core.Bootstrap" />
+      <module name="gateway-core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qyh.gateway.core.filter.shortlink.HashUtils" />
+      <module name="gateway-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyh.gateway.core.filter.shortlink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MurmurHash62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qyh.gateway.core.filter.shortlink.MurmurHash62" />
+      <module name="gateway-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyh.gateway.core.filter.shortlink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dsaijdsa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qyh.gateway.core.filter.shortlink.dsaijdsa" />
+      <module name="gateway-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyh.gateway.core.filter.shortlink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="utils.HashUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.HashUtils" />
+      <module name="gateway-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
       <module name="http-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.httpserver.HttpServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Bootstrap" />
+        <item itemvalue="应用程序.utils.HashUtils" />
+        <item itemvalue="应用程序.HashUtils" />
+        <item itemvalue="应用程序.dsaijdsa" />
+        <item itemvalue="应用程序.MurmurHash62" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,11 +308,197 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693662253755</updated>
-      <workItem from="1693662255617" duration="3873000" />
+      <workItem from="1693662255617" duration="13275000" />
+      <workItem from="1693715962582" duration="56982000" />
+      <workItem from="1693884908751" duration="4438000" />
+      <workItem from="1693893744882" duration="8509000" />
+      <workItem from="1693967336800" duration="3018000" />
+      <workItem from="1693970366754" duration="15641000" />
+      <workItem from="1694610973006" duration="12943000" />
+      <workItem from="1694660588638" duration="1747000" />
+      <workItem from="1694759637380" duration="25718000" />
+      <workItem from="1694836314350" duration="15885000" />
     </task>
+    <task id="LOCAL-00001" summary="代码初始化">
+      <created>1693666278999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693666278999</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="代码初始化" />
+    <MESSAGE value="KdkApiGateWay init" />
+    <option name="LAST_COMMIT_MESSAGE" value="KdkApiGateWay init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/process/NettyProcessor.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/process/NettyProcessor.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/Bootstrap.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/Bootstrap.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/Bootstrap.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-register-center/gateway-register-center-nacos-impl/src/main/java/com/qyh/gateway/register/center/nacos/impl/NacosRegisterCenter.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/helper/RequestHelper.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/router/RouterFilter.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/process/NettyProcessor.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/process/NettyProcessor.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/router/RouterFilter.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/process/NettyProcessor.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/loadbalance/AbstractLoadBalanceRule.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-config-center/gateway-config-center-impl/src/main/java/com/qyh/gateway/config/center/impl/NaocsConfigCenter.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/helper/HashShortLinkChecker.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/helper/ResponseHelper.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/NettyHttpServerHandler.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/helper/RequestHelper.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-client/src/main/java/com/qyh/gateway/client/support/springmvc/SpringMVCClientRegisterAndConfigManagerAndConfigManager.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/limitation/limitRule/ip/IpLimitRule.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/GatewayFilterChainFactory.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/loadbalance/LoadBalanceFilter.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/loadbalance/LoadBalanceFilter.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-config-center/gateway-config-center-impl/src/main/java/com/qyh/gateway/config/center/impl/NaocsConfigCenter.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/netty/process/NettyProcessor.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/GatewayFilterChainFactory.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/hot_param/filter/HotParamControlFilter.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-core/src/main/java/com/qyh/gateway/core/filter/dynamic/flowControl/hot_param/factory/HotParamControllerFactory.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="config.Rule" memberName="order" />
+        <PinnedItemInfo parentTag="com.qyh.gateway.core.context.GatewayContext" memberName="rule" />
+        <PinnedItemInfo parentTag="java.util.ServiceLoader" memberName="lookupIterator" />
+        <PinnedItemInfo parentTag="org.springframework.web.servlet.mvc.condition.PathPatternsRequestCondition" memberName="patterns" />
+        <PinnedItemInfo parentTag="io.netty.handler.codec.http.DefaultHttpHeaders" memberName="headers" />
+        <PinnedItemInfo parentTag="config.Rule$DynamicFilterConfig" memberName="config" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="serviceInstances.toArray()[0]" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="rule.filterConfigs" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
